@@ -1,0 +1,47 @@
+.soil_header {
+	display: flex;
+	color: #FFFFFF;
+}
+
+.soil_header span:nth-child(2):hover {
+	color: #55A0DC;
+	cursor: pointer;
+}
+
+.center {
+	display: flex;
+	margin: 5px 0px 5px 0px;
+}
+
+.center span {
+	color: #FFFFFF;
+	line-height: 40px;
+}
+
+.center .el-button {
+	margin-left: 20px;
+	color: #3DCEE9;
+	background-color: #09223d;
+	border-color: #04476E;
+}
+
+.center .el-button:hover {
+	background-color: #04476E;
+	border-color: #09223d;
+}
+
+.table-wrapper /deep/ .el-progress__text {
+	color: white;
+}
+
+.table-wrapper .el-button{
+	margin-left: 20px;
+	color: #3DCEE9;
+	background-color: #09223d;
+	border-color: #04476E;
+}
+
+.table-wrapper .el-button:hover{
+	background-color: #04476E;
+	border-color: #09223d;
+}

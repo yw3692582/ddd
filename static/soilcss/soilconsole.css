@@ -1,0 +1,51 @@
+.soil_header {
+	color: #FFFFFF;
+	display: flex;
+}
+
+.soil_center {
+	display: flex;
+}
+
+.center_left {
+	flex: 7;
+	/* border: 1px solid red; */
+}
+
+.left_top {
+	/* height: 15vh; */
+	/* border: 1px solid green; */
+}
+
+.left_bottom {
+	padding-top: 10px;
+	height: 75vh;
+	/* border: 1px solid green; */
+}
+
+#container {
+	margin: 0;
+	height: 70vh;
+}
+
+.left_bottom /deep/ .amap-container{
+	overflow: visible;
+}
+
+.center_right {
+	flex: 3;
+	/* height: 85vh; */
+	/* border: 1px solid red; */
+}
+
+.el-col-8 span {
+	color: #FFFFFF;
+	position: absolute;
+	padding-left: 10px;
+	top: 45%;
+}
+
+.soil_header span:nth-child(2):hover{
+	color: #55A0DC;
+	cursor: pointer;
+}

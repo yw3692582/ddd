@@ -1,0 +1,278 @@
+@media only screen and (max-width: 1370px) {
+	.main_left_letData .layui-layer {
+		background-color: rgba(6, 34, 99, 0.3) !important;
+		/* background-image: url(../img/840549608.png) !important; */
+		background-size: 360px 733px;
+	}
+
+	.main_right_datas .layui-layer {
+		background-color: rgba(6, 34, 99, 0.3) !important;
+		/* background-image: url(../img/840549608.png) !important; */
+		background-size: 360px 733px;
+	}
+}
+
+.el-select-dropdown {
+	z-index: 20000000 !important;
+}
+
+.el-picker-panel{
+	z-index: 200000000 !important;
+}
+
+.el-popover{
+	z-index: 200000000 !important;
+}
+
+.main_left_letData .el-input--suffix .el-input__inner {
+	padding: 5px;
+	height: 30px;
+}
+.main_left_letData .el-input__icon{
+	line-height: 30px;
+}
+.main_left_letData .layui-layer {
+	background-color: rgba(6, 34, 99, 0.3) !important;
+	/* background-image: url(../img/840549608.png) !important; */
+	/* background-size: 360px 753px; */
+}
+
+.main_right_datas .layui-layer {
+	background-color: rgba(6, 34, 99, 0.3) !important;
+	/* background-image: url(../img/840549608.png) !important; */
+	/* background-size: 360px 753px; */
+}
+
+.station_dialog .layui-layer {
+	background-color: rgb(6, 34, 99) !important;
+	/* background-image: url(../img/840549608.png) !important; */
+	/* background-size: 360px 753px; */
+}
+
+.cen_equipment .layui-layer {
+	/* background-color: rgba(173, 169, 150, 0.3) !important; */
+	background-color: rgba(6, 34, 99, 0.1) !important;
+}
+
+.cenSta .layui-layer {
+	background-color: rgba(6, 34, 99, 0.3) !important;
+}
+
+.main_left_letData .layui-layer .layui-layer-title {
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	background-color: rgba(6, 34, 99, 0.1);
+	color: white;
+	border-bottom: none;
+	padding: 0;
+}
+
+.main_right_datas .layui-layer .layui-layer-title {
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	background-color: rgba(6, 34, 99, 0.1);
+	color: white;
+	border-bottom: none;
+	padding: 0;
+}
+
+.station_dialog .layui-layer .layui-layer-title {
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	background-color: rgba(6, 34, 99, 0.1);
+	color: white;
+	border-bottom: none;
+	padding: 0;
+}
+
+.cen_equipment .layui-layer .layui-layer-title {
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	background-color: rgba(6, 34, 99, 0.1);
+	color: white;
+	border-bottom: none;
+	padding: 0;
+}
+
+.cenSta .layui-layer .layui-layer-title {
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	background-color: rgba(6, 34, 99, 0.1);
+	color: white;
+	border-bottom: none;
+	padding: 0;
+}
+
+.main .layui-layer {
+	background-color: rgba(6, 34, 99, 0.3) !important;
+}
+
+.layui-layer-ico {
+	background: url(../img/closes.png) no-repeat !important;
+}
+
+.layui-layer-setwin .layui-layer-max {
+	display: none;
+}
+
+.layui-layer-setwin .layui-layer-min cite {
+	display: none;
+}
+
+.content-window-card {
+	position: relative;
+	text-align: left;
+	box-shadow: none;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	padding: 0;
+}
+
+.custom-info {
+	border: solid 1px rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+
+div.info-top {
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-radius: 10px 10px 0px 0px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+div.info-top div {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 31px;
+	padding: 0 10px;
+}
+
+div.info-middle {
+	font-size: 12px;
+	padding: 10px 6px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border-radius: 0px 0px 10px 10px;
+}
+
+div.info-bottom {
+	height: 0px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	opacity: 0.3;
+}
+
+.el-progress__text {
+	color: white;
+}
+
+.el-tooltip__popper.is-dark {
+	opacity: 0.8;
+}
+
+.amap-scale-text {
+	color: white;
+}
+
+.station_dialog .el-dialog__body {
+	padding: 0;
+	/* background-color: rgba(0,0,0,0.1); */
+	background-color: rgb(13, 29, 77);
+}
+
+.station_dialog .el-dialog__header {
+	/* padding: 0; */
+	/* background-color: rgba(0,0,0,0.1); */
+	background-color: rgb(13, 29, 77);
+}
+
+.station_dialog .el-dialog__header .el-dialog__title {
+	color: #ffffff;
+}
+
+.right_main_header_span .seamless-warp {
+	height: 300px;
+	line-height: 35px;
+	overflow: hidden;
+}
+
+.right_main_header_span .seamless-warp ul {
+	padding: 0;
+	list-style: none;
+}
+
+.right_main_header_span .name {
+	margin-left: 10px;
+}
+
+.right_main_header_span .warning {
+	margin-left: 18px;
+}
+
+.right_main_header_span .seamless-warp ul li span {
+	color: #3DCEE9;
+}
+
+.right_main_header_span .item {
+	text-align: left;
+}
+
+.cen_rate{
+	display: grid;
+}
+
+/* ----------分水岭---------- */
+
+
+div.info-yuans{
+	color: #FFFFFF;
+}
+
+div.info-yuans ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	transition: all 5s ease;
+}
+div.info-yuans ul li{
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	font-size: 12px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+div.info-yuans ul li:hover{
+	cursor: pointer;
+	background-color: rgba(15,155,15,0.8);
+}
+
+.info-yuans ul li:nth-child(1){
+	transform: translateY(75px) translateX(-15px);
+}
+
+
+.info-yuans ul li:nth-child(2){
+	transform: translateY(35px) translateX(-15px);
+}
+
+
+.info-yuans ul li:nth-child(3){
+	transform: translateY(75px) translateX(-15px);
+}
+
+
+

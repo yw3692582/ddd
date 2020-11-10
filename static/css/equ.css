@@ -1,0 +1,29 @@
+.table-wrapper table {
+	border-collapse: collapse;
+	border: 1px solid #04476E;
+}
+
+.table-wrapper table tr th,
+.table-wrapper table tr td {
+	background-color: #071125;
+	text-align: center;
+	border: 1px solid #04476E;
+}
+
+.el-table__expanded-cell .el-form-item /deep/ .el-form-item__label {
+	color: white;
+}
+
+.table-wrapper .el-form-item {
+	margin: 0;
+}
+
+form.el-form.demo-table-expand.el-form--label-left.el-form--inline {
+	padding-left: 10px;
+}
+
+.el-input--mini /deep/ .el-input__inner {
+	background-color: #04476E;
+	border-color: #04476E;
+	color: #FFFFFF;
+}

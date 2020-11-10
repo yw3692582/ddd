@@ -1,0 +1,281 @@
+.header {
+	background-color: rgba(27, 59, 101, 0.9);
+	color: #3DCEE9;
+	position: relative;
+	z-index: 1;
+}
+
+.bg {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	background: url(../img/header-bg.png) no-repeat;
+}
+
+.header_main {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	display: flex;
+}
+
+.main {
+	position: relative;
+}
+
+.el-card {
+	position: absolute;
+	right: 4.3rem;
+	bottom: 1.9rem;
+	height: 40px;
+}
+
+.main_datas {
+	position: absolute;
+	top: 3rem;
+	right: 7.5rem;
+	height: 40px;
+	width: 285px;
+	background-color: rgba(6, 34, 99, 0.6);
+}
+
+.main_datas ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.dia_div ul li {
+	padding-left: 10px;
+	color: white;
+}
+
+.dia_div ul {
+	list-style: none;
+	display: flex;
+	font-size: 16px;
+	margin: 0;
+}
+
+.dia_div ul li:hover {
+	cursor: pointer;
+	color: #409EFF;
+}
+
+.main_datas /deep/ .el-link--inner {
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+}
+
+.main_datas /deep/ .el-link--inner:hover {
+	color: #7F7FD5;
+}
+
+.el-card /deep/ .el-card__body {
+	padding: 0;
+	border: none;
+}
+
+.el-card {
+	border: none;
+}
+
+.el-card__body .el-input /deep/ .el-input__inner {
+	color: white;
+	background-color: #333;
+}
+
+.el-card__body .el-input /deep/ .el-input-group__append {
+	color: white;
+	background-color: #333;
+}
+
+.el-card__body .el-input /deep/ .el-input__inner:focus {
+	border-color: white;
+}
+
+.left_herder {
+	padding-top: 10px;
+	color: white;
+}
+
+.left_center {
+	padding-top: 10px;
+	font-size: 16px;
+	color: white;
+}
+
+.left_select {
+	width: 160px;
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 5px;
+	margin-left: 15px;
+}
+
+.left_select option {
+	font-size: 16px;
+}
+
+.left_center_footer {
+	padding: 10px 0px 10px 30px;
+	color: white;
+	font-size: 14px;
+	text-align: left;
+}
+
+#info_ul,
+#left_main,
+#quoteRate,
+#historicalData {
+	display: none;
+}
+
+#cen_sta,
+#layer_equipment,
+#right_main,
+#dia_station{
+	display: none;
+}
+
+#footer_font {
+	color: white;
+}
+
+.sel_option {
+	/* background-color: rgba(6, 34, 99, 0.3); */
+}
+
+.menu {
+	position: absolute;
+	width: 430px;
+	height: 60px;
+	bottom: 1rem;
+	left: 40%;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 15px;
+}
+
+.menu img {
+	padding-top: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+.menu img:hover {
+	cursor: pointer;
+	transform: translateY(-15px);
+}
+
+.header_div span {
+	cursor: pointer;
+	color: white;
+}
+
+.header_div span:hover {
+	color: #409EFF;
+}
+
+.right_main_header_span {
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+.right_main_header .el-table {
+	border: none;
+	color: #3DCEE9;
+}
+
+.right_main_header /deep/ .el-table__empty-text {
+	color: #3DCEE9;
+}
+
+.right_main_header /deep/ .el-table {
+	border-color: #0D1D4D;
+}
+
+.right_main_header /deep/ .el-table,
+.el-table__expanded-cell {
+	background-color: #0D1D4D;
+	border-color: #0D1D4D;
+}
+
+.right_main_header /deep/ .el-table tr {
+	background-color: #0D1D4D !important;
+}
+
+.right_main_header /deep/ .el-table td,
+.right_main_header /deep/ .el-table th {
+	padding: 8px 0px;
+}
+
+.right_main_header /deep/ .el-table__fixed-right::before,
+.right_main_header /deep/ .el-table__fixed::before {
+	background-color: #0D1D4D;
+}
+
+.right_main_header /deep/ .el-table--enable-row-transition .el-table__body td,
+.el-table .cell {
+	background-color: #0D1D4D;
+	border-color: #0D1D4D;
+}
+
+.right_main_header /deep/ .gutter {
+	background-color: #0D1D4D;
+}
+
+.right_main_header /deep/ .el-table::before {
+	display: none;
+}
+
+.right_main_header /deep/ .el-table thead {
+	display: none;
+}
+
+.right_main_center {
+	padding-top: 30px;
+}
+.logo{
+	position: absolute;
+	display: flex;
+	right: 0.5rem;
+	top: 6rem;
+}
+.logo ul{
+	color: #FFFFFF;
+	font-size: 14px;
+	list-style: none;
+	padding: 0;
+}
+
+.logo ul li{
+	text-align: left;
+}
+
+.logo ul li img{
+	width: 16px;
+	height: 16px;
+}
+
+.cenSta .cen_ul{
+	display: flex;
+	color: white;
+}
+
+.cenSta .cen_ul ul{
+	display: flex;
+	list-style: none;
+}
+
+.cenSta .cen_ul ul li{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.cenSta .cen_ul ul li:hover{
+	cursor: pointer;
+	color: #409EFF
+}
+

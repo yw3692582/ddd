@@ -1,0 +1,18 @@
+.center /deep/ input::-webkit-input-placeholder {
+	color: #3DCEE9;
+}
+
+.center /deep/ input::-moz-input-placeholder {
+	color: #3DCEE9;
+}
+
+.center /deep/ input::-ms-input-placeholder {
+	color: #3DCEE9;
+}
+
+.center /deep/ .el-input__inner {
+	background-color: #09223d;
+	font-size: 16px;
+	border-color: #04476E;
+	color: #3DCEE9;
+}

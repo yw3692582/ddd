@@ -1,0 +1,35 @@
+.el-collapse {
+	border-top: 1px solid #55a0dc;
+}
+
+.el-collapse-item__content {
+	padding: 0;
+}
+
+.el-collapse-item__content ul {
+	list-style: none;
+	padding: 0;
+	float: left;
+	padding-left: 40px;
+	font-size: 16px;
+	text-align: left;
+	color: #b1bac1;
+}
+
+.el-collapse-item__content ul li span:hover {
+	cursor: pointer;
+	color: #55a0dc;
+}
+
+.el-collapse-item__header {
+	font-size: 18px;
+	padding-left: 30px;
+	background-color: #081b39;
+	color: #b1bac1;
+	border-bottom: 1px solid #55a0dc;
+}
+
+.el-collapse-item__wrap {
+	background-color: #081b39;
+	border-bottom: 1px solid #b1bac1;
+}

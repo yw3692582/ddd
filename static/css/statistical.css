@@ -1,0 +1,56 @@
+.fea,
+.station,
+.time {
+	display: inline;
+	margin-left: 10px;
+}
+
+.demonstration {
+	color: white;
+}
+
+.station /deep/ .el-input__inner,
+.time /deep/ .el-input__inner,
+.fea /deep/ .el-input__inner {
+	background-color: #09223d;
+	font-size: 16px;
+	border: 1px solid #04476E;
+	color: #3DCEE9;
+}
+
+
+.time /deep/ .el-range-input {
+	background-color: #09223d;
+	font-size: 16px;
+	color: #3DCEE9;
+}
+
+.time /deep/ .el-range-separator {
+	font-size: 16px;
+	color: white;
+}
+
+.box /deep/ input::-webkit-input-placeholder {
+	color: #3DCEE9;
+}
+
+.box /deep/ input::-moz-input-placeholder {
+	color: #3DCEE9;
+}
+
+.box /deep/ input::-ms-input-placeholder {
+	color: #3DCEE9;
+}
+
+.tu {
+	/* border: 1px solid #04476E; */
+	/* box-shadow: 10px 10px 5px #888888; */
+	margin-top: 5%;
+}
+
+.el-button {
+	color: #3DCEE9;
+	background-color: #09223d;
+	border-color: #04476E;
+	margin-left: 20px;
+}

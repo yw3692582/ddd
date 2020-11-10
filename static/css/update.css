@@ -1,0 +1,76 @@
+.equ_header{
+	display: flex;
+}
+
+.equ_header .el-button{
+	color: #3DCEE9;
+	background-color: #09223d;
+	border-color: #04476E;
+	margin-bottom: 10px;
+}
+
+.header-tip {
+	display: flex;
+	color: white;
+}
+
+.table-wrapper .el-table {
+	color: #3DCEE9;
+	font-size: 16px;
+}
+
+.table-wrapper /deep/ .el-table__empty-text {
+	color: #3DCEE9;
+}
+
+.table-wrapper /deep/ .el-table,
+.el-table__expanded-cell {
+	background-color: #071125;
+}
+
+.table-wrapper /deep/ .el-table tr {
+	background-color: #071125 !important;
+}
+
+.table-wrapper /deep/ .el-table--enable-row-transition .el-table__body td,
+.el-table .cell {
+	background-color: #071125 !important;
+}
+
+.table-wrapper /deep/ .el-pagination.is-background .btn-next,
+.table-wrapper /deep/ .el-pagination.is-background .btn-prev,
+.table-wrapper /deep/ .el-pagination.is-background .el-pager li {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-color: rgba(5, 62, 98, 1);
+	background-color: rgba(9, 34, 61, 1);
+	color: white;
+}
+
+.table-wrapper /deep/ .el-pagination.is-background .btn-next:not(.disabled).active,
+.table-wrapper /deep/ .el-pagination.is-background .btn-prev:not(.disabled).active,
+.table-wrapper /deep/ .el-pagination.is-background .el-pager li:not(.disabled).active {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-color: rgba(5, 62, 98, 1);
+	background-color: #3DCEE9;
+	color: white;
+}
+
+.table-wrapper /deep/ .el-pagination__jump {
+	color: white;
+	font-size: 16px;
+}
+.table-wrapper /deep/ .el-input__inner {
+	margin-top: 2px;
+	height: 35px;
+	font-size: 16px;
+	background-color: transparent;
+	border-color: #04476E;
+	color: #3DCEE9;
+}
+.el-breadcrumb__item /deep/ .el-breadcrumb__inner{
+	color: #3DCEE9;
+}

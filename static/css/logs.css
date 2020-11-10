@@ -1,0 +1,143 @@
+.bodys {
+	position: relative;
+}
+
+.header {
+	position: absolute;
+	right: 2rem;
+	top: 2rem;
+}
+
+.header ul {
+	list-style: none;
+	display: flex;
+}
+
+.header ul li {
+	font-size: 20px;
+	margin: 0px 15px 0px 15px;
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: white;
+	font: 1em Arial, Tahoma, Verdana;
+}
+
+.header ul li a:hover {
+	/* color: #409EFF; */
+}
+
+.mains {
+	/* display: flex; */
+}
+
+.main_left {
+	position: absolute;
+	color: white;
+	text-align: left;
+	margin-top: 12%;
+	left: 10%;
+}
+
+h1,
+h2,
+p {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.main_left h1 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.main_left h2 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	text-transform: uppercase;
+	font-size: 120px;
+}
+
+.main_left p {
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+
+.main_left a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	margin-top: 20px;
+	padding: 12px 20px;
+	font-size: 20px;
+	border-radius: 22px;
+	background-color: white;
+}
+
+.main_left a:hover {
+	color: white;
+	background-color: #409EFF;
+}
+
+#login {
+	display: none;
+}
+
+.main_right {
+	position: absolute;
+	top: 25%;
+	right: 15%;
+}
+
+.login-cards {
+	width: 453px;
+	height: 390px;
+	background: rgba(0, 0, 0, 0.1) none repeat scroll !important;
+	border-radius: 0px 0px 0.8rem 0.8rem;
+	color: white;
+	border: none;
+}
+
+.el-form-item /deep/ .el-form-item__label {
+	font-size: 18px;
+	color: white;
+}
+
+.login-cards /deep/ .el-input__inner {
+	width: 340px;
+	height: 50px;
+}
+
+.el-button {
+	margin-top: 8%;
+	height: 45px;
+}
+
+#login-cards {
+	display: none;
+}
+
+.el-form{
+	margin-top: 10%;
+}
+
+.login-cards .el-button{
+	background-color: rgba(64,158,255,0.5);
+	border: none;
+}
+.login-cards .el-button:hover{
+	background-color: rgba(64,158,255,0.8);
+}
+
+.footer_box{
+	position: absolute;
+	font-size: 14px;
+	bottom: 0.5rem;
+	color: #FFFFFF;
+	width: 100vw;
+	text-align: center;
+}
+

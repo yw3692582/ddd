@@ -1,0 +1,9 @@
+.soil_header{
+	display: flex;
+	color: #FFFFFF;
+}
+
+.soil_header span:nth-child(2):hover{
+	color: #55A0DC;
+	cursor: pointer;
+}
